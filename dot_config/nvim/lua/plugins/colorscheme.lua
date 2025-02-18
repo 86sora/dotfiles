@@ -2,7 +2,7 @@ return {
   "folke/tokyonight.nvim",
   priority = 1000,
   config = function()
-    local transparent = false --this messes up the colours idk why
+    local transparent = true --this messes up the colours idk why
     
     --colors
     local bg = "#011628"
