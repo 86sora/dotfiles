@@ -47,7 +47,7 @@
 
     "hyprland/language": {
         "format": "  {1}",
-        "tooltip": false,
+        "tooltip": false
     },
     "cpu": {
         "interval": 15,
@@ -63,7 +63,7 @@
         "format": " ",
         "on-click": "rofi -show drun",
         "on-click-right": "killall rofi",
-        "tooltip": false,
+        "tooltip": false
     },
     "battery": {
         "states": {
@@ -83,11 +83,11 @@
         "format": "⏻ ",
         "tooltip": false,
         "on-click": "bash ~/.config/rofi/powermenu.sh",
-        "on-click-right": "killall rofi",
+        "on-click-right": "killall rofi"
     },
     "clock": {
         "format": "  {:%A - %B %d, %Y - %R}",
-        "tooltip": false,
+        "tooltip": false
     },
     "hyprland/workspaces": {
         "format": "{icon}",
@@ -114,6 +114,6 @@
         "format-disconnected": "disconnected",
         "on-click": "nmtui",
         "tooltip": false,
-        "max-length": 50,
+        "max-length": 50
     }
 }

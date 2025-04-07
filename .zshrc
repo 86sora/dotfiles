@@ -20,3 +20,7 @@ eval "$(oh-my-posh init zsh --config ~/tokyo.omp.json)"
 
 alias matrix="cmatrix -b -u 4 -C blue"
 alias nvc="nvim ~/.dotfiles/dot_config/"
+alias nvist="nvim ~/ist/"
+alias optm="optimus-manager --switch"
+
+export PATH=$PATH:/home/sora/.spicetify
