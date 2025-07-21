@@ -61,7 +61,7 @@
     },
     "custom/launcher":{
         "format": " ",
-        "on-click": "rofi -show drun",
+        "on-click": "rofi -show drun", 
         "on-click-right": "killall rofi",
         "tooltip": false
     },
@@ -71,6 +71,7 @@
             "warning": 30,
             "critical": 15
         },
+    "format-charging": " {capacity}%", 
     "format-plugged": " {capacity}%", 
     "format": "{icon} {capacity}%",
 		"format-icons": [

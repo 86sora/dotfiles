@@ -81,7 +81,7 @@ element-icon {
 }
 
 element selected {
-    background-color:  #cba6f7 ;
+    background-color:  #739ab0ee;
     border-radius: 5px;
     text-color: #181825  ;
 }
