@@ -29,6 +29,7 @@ return {
       ensure_installed = {
         "clangd",
         "lua_ls",
+        "jdtls",
         "pylsp",
       },
     })

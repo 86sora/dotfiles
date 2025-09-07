@@ -9,7 +9,7 @@
     grey: #6c7086;
 
     width: 600;
-    font: "Jetbrains mono 14";
+    font: "Jetbrains Mono Nerd Font 14";
 }
 
 element-text, element-icon , mode-switcher {

@@ -115,7 +115,7 @@
         "format-wifi": "{essid} ({signalStrength}%)",
         "format-ethernet": "  {ipaddr}/{cidr}",
         "format-disconnected": "disconnected",
-        "on-click": "nmtui",
+        "on-click": "kitty --class nmwui nmtui",
         "tooltip": false,
         "max-length": 50
     }
