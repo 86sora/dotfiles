@@ -12,6 +12,15 @@ return {
 
     local config = {
       cmd = { "jdtls", "-data", workspace_dir },
+      settings = {
+        java = {
+            project = {
+                referencedLibraries = {
+                    vim.fn.getcwd() .. "/po-uilib.jar",   -- or "lib/po-uilib.jar"
+                },
+            },
+        },
+      },
       root_dir = root_dir,
     }
 
