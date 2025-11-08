@@ -5,7 +5,7 @@ return {
     local jdtls = require("jdtls")
 
     -- find root of project
-    local root_dir = require("jdtls.setup").find_root({ "gradlew", "mvnw", ".git" })
+    local root_dir = require("jdtls.setup").find_root({ "gradlew", "mvnw", ".git", ".project" })
 
     -- workspace dir per project
     local workspace_dir = vim.fn.stdpath("data") .. "/jdtls-workspace/" .. vim.fn.fnamemodify(root_dir, ":p:h:t")
