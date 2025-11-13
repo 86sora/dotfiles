@@ -23,6 +23,17 @@
         "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"]
     },
 
+    "idle_inhibitor": {
+        "format": "{icon}",
+        "rotate": 0,
+        "format-icons": {
+            "activated": "󰅶 ",
+            "deactivated": "󰛊 "
+        },
+        "tooltip-format-activated":"Caffeine Mode Active",
+        "tooltip-format-deactivated":"Caffeine Mode Inactive"
+    },
+
     "memory": {
         "states": {
             "c": 90, // critical
@@ -46,18 +57,6 @@
         "format": " {percentage_used}%",
         "format-alt": " {used}/{total}",
         "path": "/"
-    },
-
-
-    "idle_inhibitor": {
-        "format": "{icon}",
-        "rotate": 0,
-        "format-icons": {
-            "activated": "󰅶 ",
-            "deactivated": "󰛊 "
-        },
-        "tooltip-format-activated":"Caffeine Mode Active",
-        "tooltip-format-deactivated":"Caffeine Mode Inactive"
     },
 
     "clock": {
